@@ -20,12 +20,6 @@ limitations under the License.
 
   <modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <artifactId>flume-ng-sources</artifactId>
-    <groupId>org.apache.flume</groupId>
-    <version>1.4.0</version>
-  </parent>
-
   <groupId>com.whitepages.flume.plugins</groupId>
   <artifactId>flume-udp-source</artifactId>
   <name>Flume UDP Source</name>
@@ -36,33 +30,39 @@ limitations under the License.
     <dependency>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-sdk</artifactId>
+      <version>1.4.0</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-configuration</artifactId>
+      <version>1.4.0</version>
     </dependency>
 
     <dependency>
       <groupId>org.apache.flume</groupId>
       <artifactId>flume-ng-core</artifactId>
+      <version>1.4.0</version>
     </dependency>
 
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
+      <version>4.10</version>
     </dependency>
 
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
+      <version>1.6.1</version>
     </dependency>
 
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
       <scope>test</scope>
+      <version>1.6.1</version>
     </dependency>
 
   </dependencies>
