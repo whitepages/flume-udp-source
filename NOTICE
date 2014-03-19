@@ -1,0 +1,5 @@
+flume-udp-source plugin
+Copyright 2014, WhitePages, Inc.
+
+Based on flume-ng udp-source
+Copyright 2013, Andrew Otto
