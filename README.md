@@ -18,4 +18,7 @@ a1.sources.udp.maxsize = 65536
 ```
 
 Adapted directly from original work by @ottomata
+Many thanks for his work.
 https://github.com/ottomata/flume-ng/tree/udp-source
+
+This plugin is distributed under the same license as Apache Flume 1.4.
