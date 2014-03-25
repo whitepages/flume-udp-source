@@ -134,4 +134,18 @@ See the NOTICE file for copyright information.
     </plugins>
   </build>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>wp-ait-snapshots-repository</id>
+      <name>Artifactory - Dev - JRepo-snapshots</name>
+      <url>http://jrepo0.dev.pages:8081/artifactory/wp-ait-snapshots</url>
+    </snapshotRepository>
+
+    <repository>
+      <id>wp-ait-release-repository</id>
+      <name>Artifactory - Prod - JRepo-releases</name>
+      <url>http://jrepo0.util.pages:8081/artifactory/wp-ait-release</url>
+    </repository>
+  </distributionManagement>
+
 </project>
